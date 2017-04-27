@@ -127,7 +127,7 @@ export default class DrawerView<T: *> extends PureComponent<void, Props, void> {
       state: this._screenNavigationProp.state,
       dispatch: this._screenNavigationProp.dispatch,
     });
-    const config = this.props.router.getScreenConfig(screenNavigation, 'drawer');
+    const config = this.props.router.getScreenOptions(screenNavigation, 'drawer');
 
     return (
       <DrawerLayout
