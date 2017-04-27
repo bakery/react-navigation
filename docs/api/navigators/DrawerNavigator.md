@@ -160,7 +160,12 @@ String, React Element or a function that given `{ focused: boolean, tintColor: s
 
 #### `drawerIcon`
 
+
 React Element or a function, that given `{ focused: boolean, tintColor: string }` returns a React.Element, to display in drawer sidebar
+
+### `lockMode`
+
+Specifies the [lock mode](https://facebook.github.io/react-native/docs/drawerlayoutandroid.html#drawerlockmode) of the drawer.
 
 ### Navigator Props
 
